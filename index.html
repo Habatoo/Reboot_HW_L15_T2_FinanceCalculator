@@ -2,9 +2,37 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Финансовый калькулятор</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
-
+<h2>Калькулятор доходности вклада</h2>
+<br>
+<form>
+    <table>
+        <tr>
+            <td>Сумма на момент открытия</td>
+            <td><input id="money" type="text" value="50000" required size=10></td>
+        </tr>
+        <tr>
+            <td>Процентная ставка</td>
+            <td><input id="interest" type="text" value="5" required size=10></td>
+        </tr>
+        <tr>
+            <td>Количество лет</td>
+            <td><input id="year" type="text" value="3" required size=10></td>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <hr>
+                <br>
+                Итоговая сумма
+                <input id="result" type=text size=10 readonly>
+                <input type="button" value=" Посчитать " onclick="form.result.value = onButtonClicked()">
+            </th>
+        </tr>
+    </table>
+</form>
 </body>
 </html>

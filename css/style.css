@@ -1,0 +1,31 @@
+td {
+font-family: sans-serif;
+}
+
+body {
+background-color: white;
+}
+
+h2 {
+color:black;
+font-family: serif;
+font-size: 28px;
+font-weight: bold
+}
+
+
+th {
+text-align: left;
+font-family: sans-serif;
+font-weight: normal
+}
+
+button {
+text-align: right;
+font-family: sans-serif;
+font-weight: normal
+}
+
+p {
+font: 12pt/10pt sans-serif;
+}
